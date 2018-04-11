@@ -11,6 +11,13 @@ html {
   color: white;
   width: 100%;
 }
+a {
+  color: #00c864;
+  text-decoration: none;
+}
+img {
+  margin-bottom: 15px;
+}
 .top-row {
   margin-left: 5%;
   margin-right: 2%;
@@ -29,7 +36,6 @@ html {
 .tags {
   width: 100%;
   margin-left: 7%;
-  font-size: 2.2vh;
   font-weight: bold;
   color: rgb(230, 230, 230);
   font-family: "Open Sans", sans-serif;
@@ -37,8 +43,9 @@ html {
 .tag {
   background-color: #009b2e;
   text-align: center;
-  padding: 3vw;
-  width: 33%;
+  padding: 2vw;
+  font-size: 2.2vw;
+  width: 35%;
   float: left;
   margin-right: 10px;
   margin-bottom: 0px;
@@ -52,20 +59,101 @@ html {
   color: rgb(225, 225, 225);
 }
 .text {
-    margin-right: 5%;
+  margin-right: 5%;
+  line-height: 1.5;
 }
 .quote {
-    text-align: center;
-    color: darkgray;
-    margin-left: 10%;
-    margin-right: 17%;
+  text-align: center;
+  color: darkgray;
+  margin-left: 9%;
+  margin-right: 16%;
 }
-.rect-img-landscape img {
-    width: 93%;
-    height: auto;
+.rect-land img {
+  width: 93%;
+  height: auto;
+}
+.rect-left {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+.rect-right {
+  float: right;
+  width: 50%;
+  height: auto;
 }
 
-@media screen and (min-device-width: 540px) {
+.btn-link {
+  border: 2px solid white;
+  text-align: center;
+  padding: 2.8vw;
+  width: 35%;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 420px) {
+  .title {
+    font-size: 4.5vw;
+    letter-spacing: 2px;
+  }
+  .sub-title {
+    font-size: 2vw;
+  }
+  .content {
+    font-size: 2.7vw;
+    line-height: 1.3;
+  }
+}
+@media screen and (min-width: 540px) {
+  .content {
+    font-size: 2.2vw;
+    line-height: 1.1;
+    margin-left: 10%;
+    width: 85%;
+  }
+  .tags {
+    margin-left: 10%;
+  }
+  .tag {
+    margin-right: 15px;
+    width: auto;
+    font-size: 2vw;
+  }
+  .quote {
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 600px) {
+  .title {
+    font-size: 4vw;
+  }
+  .sub-title {
+    font-size: 1.5vw;
+  }
+  .tags {
+    margin-left: 13%;
+  }
+  .content {
+    font-size: 1.8vw;
+    margin-left: 13%;
+    width: 85%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tag {
+    font-size: 1.5vw;
+  }
+  .title {
+    font-size: 3.5vw;
+  }
+  .sub-title {
+    font-size: 1.2vw;
+  }
+  .content {
+    font-size: 1.4vw;
+  }
 }
 
 #stars {
