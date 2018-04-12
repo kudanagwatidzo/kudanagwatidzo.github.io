@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Panther';
-    src: url(../panther.ttf) format('truetype')
+    src: url(../res/panther.ttf) format('truetype')
 }
 html {
     margin: 0;
