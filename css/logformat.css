@@ -119,7 +119,14 @@ img {
   .tag {
     margin-right: 15px;
     width: auto;
-    font-size: 2vw;
+    font-size: 1.9vw;
+  }
+  .btn-link {
+    width: 12%;
+    padding: 2.4vw;
+    font-size: 1.8vw;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
   }
   .quote {
     line-height: 1.5;
@@ -143,7 +150,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .tag {
-    font-size: 1.5vw;
+    font-size: 1.45vw;
   }
   .title {
     font-size: 3.5vw;
@@ -152,7 +159,7 @@ img {
     font-size: 1.2vw;
   }
   .content {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
   }
 }
 
